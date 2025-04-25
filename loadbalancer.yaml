@@ -6,8 +6,6 @@ metadata:
     app: jenkins-instance
 spec:
   type: LoadBalancer
-  externalIPs:
-    - 192.168.0.10
   ports:
     - port: 8085
       targetPort: 8085
